@@ -1,0 +1,56 @@
+# 构建目录
+/build/
+/bin/
+/lib/
+/out/
+
+# CMake生成的文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+*.cmake
+
+# 编译生成的文件
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+*.out
+*.app
+
+# 编辑器和IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 调试文件
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# 测试生成的文件
+/Testing/
+
+# 文档生成的文件
+/docs/html/
+/docs/latex/
+
+# 依赖管理工具生成的目录
+/vendor/
+/deps/
+
+# 其他
+*.log
+*.tmp
